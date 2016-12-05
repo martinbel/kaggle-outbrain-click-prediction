@@ -27,3 +27,7 @@ setkey(clicks_test, "clicked")
 submission <- clicks_test[,.(ad_id=paste(rev(ad_id), collapse=" ")), by=display_id]
 setkey(submission, "display_id")
 
+write.csv(submission, 
+          file = "btb_with_vw.csv",
+          row.names = F, quote=FALSE)
+
