@@ -17,3 +17,6 @@ Not great but a nice start with room for improvement.
 The average loss for this model is: 0.437686
 
 3. write_submission.R converts the output of vw into probabilities, and finally the submission format. 
+
+See this notebook for more details:
+https://martinbel.github.io/outbrain-click-prediction-with-vowpal-wabbit.html 
